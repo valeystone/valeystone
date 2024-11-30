@@ -1,0 +1,39 @@
+# Hugo 自动生成的 public 文件夹
+/public/
+
+# 运行产生的临时文件
+.hugo_build.lock
+
+# 临时缓存文件夹
+/resources/
+
+# Hugo 的临时文件
+hugo_stats.json
+
+# 本地开发环境的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器或 IDE 产生的文件
+.idea/
+.vscode/
+*.swp
+
+# 操作系统生成的文件
+*.log
+*.bak
+*.tmp
+
+# 部署相关文件
+/netlify.toml
+/terraform.tfstate
+/terraform.tfstate.backup
+
+# 不需要的打包文件
+/node_modules/
+package-lock.json
+yarn.lock
+
+# 如果使用的是特定工具，加入其相关文件
+.env
+.env.local
